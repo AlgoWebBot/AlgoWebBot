@@ -4,63 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Love Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="screen">
-            <input type="text" name="display" id="display" placeholder="0" max="13">
+        <div class="first-name">
+            <input type="text" id="first-name" placeholder="Your Name" required >
         </div>
-        <div class="button">
-            <div class="row">
-                <button onclick="del()" id="delete">DEL</button>
-                <button onclick="factorial()" >x!</button>
-                <button class="btn" >(</button>
-                <button class="btn" >)</button>
-                <button onclick="all_clear()" id="all_clear">AC</button>
-            </div>
 
-            <div class="row">
-                <button onclick="pie()" >π</button>
-                <button class="btn" >log</button>
-                <button onclick="squre()" >√</button>
-                <button onclick="cube()" >x<sup>3</sup></button>
-                <button onclick="squar()" >x<sup>2</sup></button>
-            </div>
+        <div class="second-name">
+            <input type="text" id="first-name" placeholder="Partner Name" required >
+        </div>
 
-            <div class="row">
-                <button onclick="sin()" >sin</button>
-                <button onclick="cos()" >cos</button>
-                <button onclick="tan()" >tan</button>
-                <button onclick="epp()" >e</button>
-                <button class="btn" >/</button>
-            </div>
+        <div class="btn" onclick="calculate()">
+            <button>CALCULATE</button>
+        </div>
 
-            <div class="row">
-                <button class="btn" >6</button>
-                <button class="btn" >7</button>
-                <button class="btn" >8</button>
-                <button class="btn" >9</button>
-                <button class="btn" >*</button>
-            </div>
-            <div class="row">
-                <button class="btn" >5</button>
-                <button class="btn" >4</button>
-                <button class="btn" >3</button>
-                <button class="btn" >2</button>
-                <button class="btn" >-</button>
-            </div>
-            <div class="row">
-                <button class="btn" >1</button>
-                <button class="btn" >0</button>
-                <button class="btn" >.</button>
-                <button onclick="equal()" id="equal">=</button>
-                <button class="btn" >+</button>
-            </div>
+        <div class="calculate-love">
+            <input type="text" id="calculate-love">
         </div>
     </div>
-<script src="/Scientific Calculator/Calculator.js"></script>
+
+    <script src="/Love calculator two/app.js"></script>
 
 </body>
 </html>
